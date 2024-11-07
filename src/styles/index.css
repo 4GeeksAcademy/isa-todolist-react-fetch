@@ -1,55 +1,51 @@
-
+h1 {
+    font-size: 80px; 
+    color: #4a4a4a; 
+}
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
-
-.todo-container {
-    width: 500px;
-    margin: auto;
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-}
-
-.list-group {
-    list-style-type: none;
-    padding: 0;
-}
-
-.list-group-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-.list-group-item:last-child {
-    border-bottom: none;
-}
-
-.delete-button {
-    background-color: #ff4d4d;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.delete-button:hover {
-    background-color: #e60000;
-}
-
-.count {
-    color: gray;
-    text-align: left;
-    padding: 10px 0;
+    background-color: #f0f0f0; 
 }
 
 
+.todo-item {
+    height: 60px; 
+    font-size: 22px; 
+    padding-left: 20px; 
+    background-color: #ffffff; 
+    margin: 5px 0; 
+    border-radius: 5px; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+input {
+    border: 1px solid #ccc; 
+    height: 45px; 
+    font-size: 20px; 
+    padding: 10px; 
+    color: #333; 
+}
+
+.todo-item:hover {
+    background-color: #e0e0e0; 
+}
+
+.remove-button {
+    color: #b22222; 
+    border: none; 
+    background: none; 
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 25px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.todo-count {
+    color: #777; 
+    font-size: 18px; 
+    margin-top: 10px; 
+}
